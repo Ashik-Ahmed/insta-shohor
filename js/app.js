@@ -53,7 +53,7 @@ const switchTab = (id) => {
 const createPost = (post) => {
   const image = post.image;
   const div = document.createElement("article");
-  div.classList.add("post");
+  div.classList.add("post", "h-100");
   div.innerHTML = `
               <div class="post__header">
                 <div class="post__profile">
